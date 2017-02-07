@@ -1,0 +1,31 @@
+.hero-logo-container {
+  float: left;
+  width: 25%;
+  padding: 1rem;
+}
+
+.hero-logo-container {
+   .hero-logo {
+     display: block;
+     width: 150px;
+     margin: auto;
+   }
+}
+
+.hero-title-container {
+  float: left;
+  width: 75%;
+}
+
+.hero-title-container {
+   .hero-title {
+     font-size: 3rem;
+     margin: 2rem 0 0;
+     color: $container_color;
+   }
+
+   .hero-tagline {
+     color: $subtitle;
+     margin: 0.25rem 0;
+   }
+ }

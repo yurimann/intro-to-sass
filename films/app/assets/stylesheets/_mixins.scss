@@ -1,0 +1,18 @@
+@mixin clearfix {
+  &::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+article {
+   header {
+    @include clearfix;
+  }
+}
+
+.hero-block {
+  position: relative;
+  @include clearfix;
+}
